@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function SiteHeader(){return <header className="nav"><Link href="/" className="brand"><span className="brand-mark">t.</span><span>Tarevia</span></Link><nav><Link href="/como-funciona">Cómo funciona</Link><Link href="/funciones">Funciones</Link></nav><div className="nav-actions"><Link className="login-link" href="/login">Iniciar sesión</Link><Link className="button button-small" href="/registro">Crear cuenta <span aria-hidden="true">↗</span></Link></div></header>}

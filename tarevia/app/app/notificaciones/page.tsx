@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import NotificationsView from '@/components/app/NotificationsView';export const metadata:Metadata={title:'Avisos académicos'};export default function Page(){return <NotificationsView/>}
