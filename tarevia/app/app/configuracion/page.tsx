@@ -1,1 +1,0 @@
-import type {Metadata} from 'next';import AccountPanel from '@/components/app/AccountPanel';export const metadata:Metadata={title:'Configuración'};export default function Page(){return <AccountPanel mode="settings"/>}

@@ -1,2 +1,0 @@
-import Link from 'next/link';
-export default function SiteFooter(){return <footer className="footer"><div><Link href="/" className="brand"><span className="brand-mark">t.</span><span>Tarevia</span></Link><p>Una forma más clara de organizar tu vida académica.</p></div><div className="footer-links"><Link href="/privacidad">Privacidad</Link><Link href="/terminos">Términos</Link><span>© {new Date().getFullYear()} Tarevia</span></div></footer>}
