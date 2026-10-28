@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { ArrowUpRight, CalendarDays } from 'lucide-react';
+export default function SiteHeader(){return <header className="nav nav-redesigned"><Link href="/" className="brand"><span className="brand-mark">t.</span><span>Tarevia<small>AGENDA ESCOLAR DIGITAL</small></span></Link><nav><Link href="/#funciones">Funciones</Link><Link href="/#como-funciona">Cómo funciona</Link><Link href="/#proyecto-sena">Proyecto SENA</Link></nav><div className="nav-actions"><Link className="login-link" href="/login">Iniciar sesión</Link><Link className="button button-small" href="/registro"><CalendarDays size={15}/> Probar Tarevia <ArrowUpRight size={15}/></Link></div></header>}
